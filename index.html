@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <meta name="theme-color" content="#292725" />
+  <meta name="description"
+    content="The Holy Grill in Livingstone, Zambia — quality food, bold flavour, and fast-casual meals made for you. Order kota, shawarma, burgers, sides, and drinks on WhatsApp." />
+  <meta name="keywords"
+    content="Holy Grill Livingstone, fast food in Livingstone, best burgers in Livingstone, kota in Livingstone, shawarma in Livingstone, food delivery Livingstone, Maramba Market" />
+  <meta property="og:title" content="The Holy Grill — Quality Food. Bold Flavour." />
+  <meta property="og:description"
+    content="Big flavour, no waiting around. Browse the menu and order The Holy Grill on WhatsApp." />
+  <meta property="og:type" content="website" />
+  <title>The Holy Grill | Quality Food. Bold Flavour.</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="site-shell">
+    <!-- Toast Notification Container -->
+    <div id="toast-container" aria-live="polite"></div>
+
+    <!-- Top Sticky Navigation Header -->
+    <header class="site-header">
+      <a href="#home" class="brand-lockup" aria-label="The Holy Grill home">
+        <img src="images/logo.png" alt="The Holy Grill Logo" />
+        <span>THE HOLY<br /><b>GRILL</b></span>
+      </a>
+
+      <nav class="desktop-nav" id="desktop-nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#specials">Specials</a>
+        <a href="#happy-hour">Happy Hour</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="call-link" href="tel:+260771609900" aria-label="Call +260 77 160 9900">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+            </path>
+          </svg>
+          <span>+26077 160 9900</span>
+        </a>
+
+        <button type="button" class="header-order" onclick="openDrawer(false)">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          Order
+          <span class="cart-count-badge" style="display: none;">0</span>
+        </button>
+
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="hero-copy">
+          <p class="section-label section-label-light"><span></span> Cliff’s flavour spot</p>
+          <h1>Holy taste.<br /><em>Heavy flavour.</em></h1>
+          <p>Fresh fast-good meals, fired up with care and served with the speed your day deserves.</p>
+
+          <div class="hero-ctas">
+            <a class="button button-primary" href="#menu">
+              Order now
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="7" y1="7" x2="17" y2="17"></line>
+                <polyline points="17 7 17 17 7 17"></polyline>
+              </svg>
+            </a>
+            <a class="text-link light-link" href="#menu">
+              View the menu <span>↘</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Maramba Market
+            </span>
+            <span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              Open daily 10:00–20:00
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="images/hero.png" alt="Loaded kota burger with fries" />
+          <div class="hero-sticker">
+            <span>Made<br />fresh</span>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z">
+              </path>
+            </svg>
+          </div>
+          <div class="hero-number">01</div>
+        </div>
+      </section>
+
+      <!-- Intro Strip -->
+      <section class="intro-strip">
+        <div class="intro-stamp">
+          EST. LIVINGSTONE<br />
+          <b>MADE FRESH</b>
+        </div>
+        <div>
+          <p class="section-label"><span></span> Made for the moment</p>
+          <h2>Pick your plate.<br /><span>We’ll fire it up.</span></h2>
+        </div>
+        <p>From a quick lunch at Maramba Market to a full family feast, The Holy Grill brings bold, satisfying flavour
+          without the wait.</p>
+        <a class="round-arrow" href="#menu" aria-label="Go to menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="7" y1="7" x2="17" y2="17"></line>
+            <polyline points="17 7 17 17 7 17"></polyline>
+          </svg>
+        </a>
+      </section>
+
+      <!-- Menu Section -->
+      <section id="menu" class="menu-section">
+        <div class="menu-stamp">
+          HG / 01<br />
+          <b>FIRE IT UP</b>
+        </div>
+
+        <div class="section-heading">
+          <div>
+            <p class="section-label"><span></span> What’s cooking</p>
+            <h2>The menu</h2>
+          </div>
+          <p>Big portions. Honest prices.<br />Zero boring bites.</p>
+        </div>
+
+        <!-- Controls: Category Filter Tabs & Real-time Search -->
+        <div class="menu-filter-controls">
+          <div class="category-tabs" role="tablist">
+            <button type="button" role="tab" class="active" data-category="All">All</button>
+            <button type="button" role="tab" data-category="Kota">Kota</button>
+            <button type="button" role="tab" data-category="Shawarma">Shawarma</button>
+            <button type="button" role="tab" data-category="Burgers">Burgers</button>
+            <button type="button" role="tab" data-category="Sides">Sides</button>
+            <button type="button" role="tab" data-category="Drinks">Drinks</button>
+          </div>
+
+          <div class="menu-search-wrap">
+            <svg class="menu-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2.2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="menu-search" class="menu-search-input" placeholder="Search menu..." />
+          </div>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid" id="products-grid">
+          <!-- Items rendered via JavaScript -->
+        </div>
+      </section>
+
+      <!-- Today's Specials Section -->
+      <section id="specials" class="special-section">
+        <div class="special-image">
+          <img src="images/Quesadilla.png" alt="Holy Grill burger meal with fries and drink" />
+          <span class="special-badge">Today<br /><b>only</b></span>
+        </div>
+
+        <div class="special-copy">
+          <p class="section-label section-label-light"><span></span> Today’s specials 🔥</p>
+          <h2>The kind of deal<br /><em>you tell people about.</em></h2>
+
+          <div class="special-price">
+            <span>Was K120</span>
+            <strong>K100</strong>
+          </div>
+
+          <p>Golden crispy crust, creamy and cheesy packed with juicy chicken peppers and onions. Every bite is a whole
+            vibe!</p>
+
+          <button type="button" class="button button-primary" onclick="addSpecialOrder('today-special')">
+            Order today’s special
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="7" y1="7" x2="17" y2="17"></line>
+              <polyline points="17 7 17 17 7 17"></polyline>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- Happy Hour Section -->
+      <section id="happy-hour" class="happy-section">
+
+        <div class="happy-heading">
+          <div>
+            <p class="section-label"><span></span> Clock in hungry</p>
+            <h2>Holy Grill<br /><span>Coming Soon</span></h2>
+          </div>
+
+          <div class="time-lockup">
+            <small>Coming this<br />October</small>
+          </div>
+        </div>
+
+        <!-- Horizontal Scrolling Gallery -->
+        <div class="happy-gallery" id="happy-gallery">
+          <div class="happy-gallery-track">
+            <figure class="gallery-item">
+              <img src="images/plata1.jpeg" alt="Platter meal" loading="lazy" />
+              <figcaption>Loaded Platter</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="images/plata2.jpeg" alt="Platter meal option" loading="lazy" />
+              <figcaption>Family Feast</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="images/plata3.jpeg" alt="Holy Grill platter" loading="lazy" />
+              <figcaption>Grill Special</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="images/plata4.jpeg" alt="Meal platter" loading="lazy" />
+              <figcaption>Combo Deal</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="images/plata 5.jpeg" alt="Big platter" loading="lazy" />
+              <figcaption>Holy Platter</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="happy-footer">
+          <p>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+              </path>
+            </svg>
+            Order any meal for 5 consecutive days and get <b>13% off</b> your next meal.
+          </p>
+          <button type="button" class="button button-dark"
+            onclick="resetFilters(); document.querySelector('#menu')?.scrollIntoView({behavior: 'smooth'})">
+            Browse All Menu Options ↘
+          </button>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section">
+        <div class="about-quote">
+          <span>“</span>
+          <h2>Good food should feel like a <em>small win.</em></h2>
+        </div>
+
+        <div class="about-copy">
+          <p class="section-label"><span></span> About the grill</p>
+          <p>The Holy Grill is a fast-casual food brand built around the things that matter: quality ingredients,
+            consistent portions, friendly service, and meals that leave you properly satisfied.</p>
+          <p>We keep it fresh, keep it moving, and keep the flavour turned all the way up.</p>
+          <a class="text-link" href="#contact">
+            Find us in Livingstone
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="7" y1="7" x2="17" y2="17"></line>
+              <polyline points="17 7 17 17 7 17"></polyline>
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact / Location Section -->
+      <section id="contact" class="contact-section">
+        <div>
+          <p class="section-label section-label-light"><span></span> Come through</p>
+          <h2>Meet us at<br /><em>Maramba Market.</em></h2>
+          <p>Maramba Market, Livingstone, Zambia</p>
+          <p>Monday – Sunday · 10:00 – 20:00</p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://maps.app.goo.gl/sySEb5uFp48G6X816" target="_blank"
+            rel="noopener noreferrer">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Get directions
+          </a>
+          <a class="button button-outline-light" href="tel:+26097000000">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+            Call to order
+          </a>
+        </div>
+
+          <div class="contact-socials">
+            <a href="https://www.facebook.com/share/19bSp7GMz1/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://www.tiktok.com/@the.holy.grill?_r=1&_t=ZS-99kuGZl3BUg" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1v-3.52a6.37 6.37 0 0 0-.79-.05A6.34 6.34 0 0 0 3.15 15a6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V8.7a8.18 8.18 0 0 0 4.76 1.52V6.77a4.83 4.83 0 0 1-1-.08z"></path>
+              </svg>
+            </a>
+          </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <a href="#home" class="brand-lockup footer-brand" aria-label="The Holy Grill home">
+        <img src="images/logo.png" alt="The Holy Grill" />
+        <span>THE HOLY<br /><b>GRILL</b></span>
+      </a>
+      <p>Quality Food. Bold Flavour. Made for You.</p>
+      <small>© 2026 The Holy Grill · Livingstone, Zambia</small>
+    </footer>
+
+    <!-- Floating WhatsApp Order Button -->
+    <button type="button" class="floating-whatsapp" onclick="openDrawer(true)">
+      <span class="pulse-dot"></span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="9" cy="21" r="1"></circle>
+        <circle cx="20" cy="21" r="1"></circle>
+        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+      </svg>
+      Order on WhatsApp
+      <b class="cart-count-badge" style="display: none;">0</b>
+    </button>
+
+    <!-- Mobile Sticky Bottom Navigation -->
+    <nav class="mobile-bottom-bar" aria-label="Mobile quick actions">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <button type="button" onclick="openDrawer(false)">
+        Cart <b class="cart-count-badge" style="display: none;">0</b>
+      </button>
+      <button type="button" onclick="openDrawer(true)">Order</button>
+    </nav>
+
+    <!-- Slide-Out Cart & Checkout Drawer Modal -->
+    <div class="overlay" id="cart-overlay" aria-hidden="true">
+      <aside class="cart-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title"
+        onclick="event.stopPropagation()">
+        <div class="drawer-heading">
+          <div>
+            <p class="section-label"><span></span> Your order</p>
+            <h2 id="drawer-title">Your Cart</h2>
+          </div>
+          <button type="button" class="icon-button" onclick="closeDrawer()" aria-label="Close drawer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <div id="drawer-body">
+          <!-- Dynamic Cart or Checkout View -->
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Application Script -->
+  <script src="app.js"></script>
+</body>
+
+</html>
