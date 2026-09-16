@@ -28,7 +28,7 @@ const MENU_ITEMS = [
     id: "kota-meal",
     name: "Kota Meal",
     category: "Kota",
-    price: 99,
+    price: 115,
     description: "Loaded kota served with crisp fries and a cold 330ml drink.",
     image: "images/kota-meal.jpg",
     tag: "Full meal"
@@ -61,7 +61,7 @@ const MENU_ITEMS = [
   },
   // Quesadilla
   {
-    id: "burger-regular",
+    id: "quesadilla",
     name: "Quesadilla",
     category: "Shawarma",
     price: 120,
