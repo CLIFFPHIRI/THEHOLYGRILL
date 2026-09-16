@@ -113,7 +113,7 @@ const MENU_ITEMS = [
   },
   // Drinks
   {
-    id: "drink-330",
+    id: "500-frutiana",
     name: "500ml Fruticana",
     category: "Drinks",
     price: 10,
@@ -121,7 +121,7 @@ const MENU_ITEMS = [
     image: "images/fruticana.png"
   },
   {
-    id: "drink-330",
+    id: "500-cocacola",
     name: "500ml Cocacola",
     category: "Drinks",
     price: 15,
@@ -129,7 +129,7 @@ const MENU_ITEMS = [
     image: "images/cocacola.webp"
   },
   {
-    id: "drink-330",
+    id: "330-cocacola",
     name: "350ml Cocacola",
     category: "Drinks",
     price: 10,
@@ -137,7 +137,7 @@ const MENU_ITEMS = [
     image: "images/coc.avif"
   },
   {
-    id: "drink-330",
+    id: "500-water",
     name: "500ml Water",
     category: "Drinks",
     price: 8,
@@ -145,7 +145,7 @@ const MENU_ITEMS = [
     image: "images/water.jpeg"
   },
   {
-    id: "drink-330",
+    id: "500-sprite",
     name: "500ml Sprite",
     category: "Drinks",
     price: 15,
@@ -153,7 +153,7 @@ const MENU_ITEMS = [
     image: "images/sprite.avif"
   },
   {
-    id: "drink-330",
+    id: "330-sprite",
     name: "350ml Sprite",
     category: "Drinks",
     price: 10,
@@ -161,7 +161,7 @@ const MENU_ITEMS = [
     image: "images/spri.jpg"
   },
   {
-    id: "drink-330",
+    id: "330-fanta",
     name: "350ml fanta",
     category: "Drinks",
     price: 10,
